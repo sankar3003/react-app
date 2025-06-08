@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
+import User from './useState/User';
+// import Link from "./Link"
+// import User from './User'
+// import Comment from './useState/Comment';
+// import UserForm from './useState/userForm';
+// import Loading from './useState/Loading';
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+{/* <Link  title={true} content=" React is the library for web and native user interfaces. Build user
+          interfaces out of individual pieces called components written in
+          JavaScript." />
+          <User content="hi i am from parent and i m a class component"/>
+        <Loading></Loading> */}
+        {/* <UserForm /> */}
+        {/* <Comment></Comment> */}
+        <User></User>
+        </>
+
+
+  ); 
 }
 
 export default App;
