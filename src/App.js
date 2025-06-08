@@ -1,4 +1,5 @@
 import './App.css';
+import Theme from './useState/Theme';
 import User from './useState/User';
 // import Link from "./Link"
 // import User from './User'
@@ -18,8 +19,9 @@ function App() {
         {/* <UserForm /> */}
         {/* <Comment></Comment> */}
         <User></User>
-        </>
-
+        <Theme />
+      
+</>
 
   ); 
 }
